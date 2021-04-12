@@ -1,5 +1,5 @@
 node default {
 }
-node 'localhost.localdomain' {
+node 'web.puppet.vm' {
   include role::master_server
 }
