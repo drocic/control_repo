@@ -5,7 +5,7 @@ node default {
     owner => 'root',
   }
 }
-node 'master.puppet.vm' {
+node 'localhost.localdomain' {
   include role::master_server
 }
 
